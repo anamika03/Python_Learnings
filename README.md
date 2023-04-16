@@ -1,2 +1,2 @@
-# hello-world
-Hello Everyone! My first repository on github
+# Python_Learnings
+Hello Everyone! My Python learnings path.
