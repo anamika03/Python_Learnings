@@ -11,3 +11,8 @@ print("I\'m Anamika")
 # \" - double qoute
 # \\ = backslash
 # ctrl +/ = to comment out the line
+
+user_name = "Anamika" #snake case writing
+userName = "krishan"  #camel case writing
+print(user_name)
+print(userName)
