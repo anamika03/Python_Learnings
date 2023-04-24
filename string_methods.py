@@ -1,20 +1,20 @@
-# name = "anamika Singh"
+name = "anamika Singh"
 
-# # len() function
-# length = len(name)  #it will also count the space
-# print(length)
+# len() function
+length = len(name)  #it will also count the space
+print(length)
 
-# # lower() method
-# print(name.lower())
+# lower() method
+print(name.lower())
 
-# # upper() method
-# print(name.upper())
+# upper() method
+print(name.upper())
 
-# # title() function
-# print(name.title())
+# title() function
+print(name.title())
 
-# # count() method
-# print(name.count("i"))
+# count() method
+print(name.count("i"))
 
 name2 = "    An  am ika     "
 # lstrip() method - discard the left spaces
