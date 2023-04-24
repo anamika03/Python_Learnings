@@ -27,8 +27,12 @@ print(name2.rstrip())
 print(name2.strip())
 
 # replace(" ", "") - replacing the space with no space
-name_without_spaces = name2.replace(" ","")
-print(name_without_spaces)
+new_name = name2.replace(" ","")
+print(new_name)
 
 # find()
-print(name_without_spaces.find("a",3))
+print(new_name.find("a",3))
+
+# center() method
+print(new_name.center(len(new_name)+8 , "*"))
+print(new_name.center(15, "*"))
