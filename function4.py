@@ -15,7 +15,7 @@ def main(name,sirname,age=26):  #age is default, if you not pass any argu then i
 
 main("Anamika","Singh",27)
 
-def main(name,sirname="unknown",age):   #SyntaxError: non-default argument follows default argument
+def main(name,sirname="unknown",age=27):   #SyntaxError: non-default argument follows default argument
     print(f"Your name is {name}")
     print(f"Your sirname is {sirname}")
     print(f"Your age is {age}")
