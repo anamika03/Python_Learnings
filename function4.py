@@ -1,26 +1,26 @@
-# #default parameter
+#default parameter
 
-# def main(name,sirname,age):
-#     print(f"Your name is {name}")
-#     print(f"Your sirname is {sirname}")
-#     print(f"Your age is {age}")
+def main(name,sirname,age):
+    print(f"Your name is {name}")
+    print(f"Your sirname is {sirname}")
+    print(f"Your age is {age}")
 
-# main("Anamika","Singh",26)
+main("Anamika","Singh",26)
 
-# def main(name,sirname,age=26):  #age is default, if you not pass any argu then it will be default 
-#                                 # and if you pass any value then it will update with the passed argument
-#     print(f"Your name is {name}")
-#     print(f"Your sirname is {sirname}")
-#     print(f"Your age is {age}")
+def main(name,sirname,age=26):  #age is default, if you not pass any argu then it will be default 
+                                # and if you pass any value then it will update with the passed argument
+    print(f"Your name is {name}")
+    print(f"Your sirname is {sirname}")
+    print(f"Your age is {age}")
 
-# main("Anamika","Singh",27)
+main("Anamika","Singh",27)
 
-# def main(name,sirname="unknown",age):   #SyntaxError: non-default argument follows default argument
-#     print(f"Your name is {name}")
-#     print(f"Your sirname is {sirname}")
-#     print(f"Your age is {age}")
+def main(name,sirname="unknown",age):   #SyntaxError: non-default argument follows default argument
+    print(f"Your name is {name}")
+    print(f"Your sirname is {sirname}")
+    print(f"Your age is {age}")
 
-# main("Anamika",26)  
+main("Anamika",26)  
 
 
 #Scope
