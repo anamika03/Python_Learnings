@@ -20,7 +20,7 @@ def main(name,sirname="unknown",age=27):   #SyntaxError: non-default argument fo
     print(f"Your sirname is {sirname}")
     print(f"Your age is {age}")
 
-main("Anamika",26)  
+main("Anamika")  
 
 
 #Scope
